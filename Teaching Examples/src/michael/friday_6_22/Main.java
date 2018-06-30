@@ -5,7 +5,6 @@ package michael.friday_6_22;
  */
 public class Main {
     public static void main(String[] args){
-        Dog d = new Dog();
-        d.isFood();
+
     }
 }

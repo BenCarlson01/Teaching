@@ -37,7 +37,7 @@ public class Dog {
      * This method doesn't really make sense
      */
     public Dog largerDog(Dog b) {
-        if (this.getWeight() > b.getWeight()) {
+        if (getWeight() > b.getWeight()) {
             return this;
         }
         return b;
@@ -65,9 +65,6 @@ public class Dog {
     }
 
     public static void main(String[] args) {
-        Dog.largerDog(a, b);
-        int x = Dog.totalDogs;
-        Dog d = new Dog();
-        d.isLarger(b);
+
     }
 }
